@@ -7,7 +7,7 @@ services:
     image: zhayujie/chatgpt-on-wechat
     container_name: sample-chatgpt-on-wechat
     environment:
-      OPEN_AI_API_KEY: 'YOUR API KEY'
+      OPEN_AI_API_KEY: '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'
       OPEN_AI_PROXY: ''
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
